@@ -5,7 +5,7 @@
 ### Software and account Requirement.
 
 1. [Github Account](https://github.com)
-2. [Heroku Account](https://dashboard.heroku.com/login)
+2. [Heroku Account](https://dashboard.heroku.com/login
 3. [VS Code IDE](https://code.visualstudio.com/download)
 4. [GIT cli](https://git-scm.com/downloads)
 5. [GIT Documentation](https://git-scm.com/docs/gittutorial)
@@ -13,14 +13,14 @@
 
 Creating conda environment
 ```
-conda create -p mvenv python==3.7 -y
+conda create -p pvenv python==3.7 -y
 ```
 ```
-conda activate mvenv/
+conda activate pvenv/
 ```
 OR 
 ```
-conda activate mvenv
+conda activate pvenv
 ```
 
 ```

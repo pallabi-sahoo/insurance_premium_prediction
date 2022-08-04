@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+insurance/artifact
 # Distribution / packaging
 .Python
 build/
@@ -103,12 +103,12 @@ celerybeat.pid
 
 # Environments
 .env
-.mvenv
+.pvenv
 env/
-mvenv/
+pvenv/
 ENV/
 env.bak/
-mvenv.bak/
+pvenv.bak/
 
 # Spyder project settings
 .spyderproject
