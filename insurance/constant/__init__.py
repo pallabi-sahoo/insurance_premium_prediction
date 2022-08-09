@@ -25,7 +25,6 @@ TRAINING_PIPELINE_NAME_KEY = "pipeline_name"
 
 
 # Data Ingestion related variable
-
 DATA_INGESTION_CONFIG_KEY = "data_ingestion_config"
 DATA_INGESTION_ARTIFACT_DIR = "data_ingestion"
 DATA_INGESTION_INGESTED_DIR_NAME_KEY = "ingested_dir"
@@ -62,7 +61,6 @@ TARGET_COLUMN_KEY="target_column"
 
 
 # Model Training related variables
-
 MODEL_TRAINER_ARTIFACT_DIR = "model_trainer"
 MODEL_TRAINER_CONFIG_KEY = "model_trainer_config"
 MODEL_TRAINER_TRAINED_MODEL_DIR_KEY = "trained_model_dir"
@@ -72,14 +70,16 @@ MODEL_TRAINER_MODEL_CONFIG_DIR_KEY = "model_config_dir"
 MODEL_TRAINER_MODEL_CONFIG_FILE_NAME_KEY = "model_config_file_name"
 
 
+# Model Evaluation related variables
 MODEL_EVALUATION_CONFIG_KEY = "model_evaluation_config"
 MODEL_EVALUATION_FILE_NAME_KEY = "model_evaluation_file_name"
 MODEL_EVALUATION_ARTIFACT_DIR = "model_evaluation"
 
 
-# Model Pusher config key
+# Model Pusher related variables
 MODEL_PUSHER_CONFIG_KEY = "model_pusher_config"
 MODEL_PUSHER_MODEL_EXPORT_DIR_KEY = "model_export_dir"
+
 
 BEST_MODEL_KEY = "best_model"
 HISTORY_KEY = "history"
