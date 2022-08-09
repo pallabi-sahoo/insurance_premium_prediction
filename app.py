@@ -10,8 +10,8 @@ def index():
     try:
         raise Exception("We are testing custom exception")
     except Exception as e:
-        housing = InsuranceException(e,sys)
-        logging.info(housing.error_message)
+        insurance = InsuranceException(e,sys)
+        logging.info(insurance.error_message)
         logging.info("We are testing logging module")
     return "Starting Insurance Premium Prediction Project."
 

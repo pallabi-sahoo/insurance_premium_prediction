@@ -2,10 +2,15 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+saved_models/*
 # C extensions
 *.so
 insurance/artifact
+templates/
+config/model.yaml
+insurance/entity/experiment.py
+insurance/entity/model_factory.py
+insurance/entity/premium_predictor.py
 # Distribution / packaging
 .Python
 build/
