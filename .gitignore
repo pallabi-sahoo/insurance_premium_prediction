@@ -7,9 +7,7 @@ saved_models/*
 *.so
 insurance/artifact
 templates/
-config/model.yaml
 insurance/entity/experiment.py
-insurance/entity/model_factory.py
 insurance/entity/premium_predictor.py
 # Distribution / packaging
 .Python
