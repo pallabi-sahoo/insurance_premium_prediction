@@ -6,7 +6,6 @@ saved_models/*
 # C extensions
 *.so
 insurance/artifact
-templates/
 # Distribution / packaging
 .Python
 build/

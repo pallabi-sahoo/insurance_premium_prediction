@@ -32,7 +32,7 @@ Experiment = namedtuple("Experiment", ["experiment_id", "initialization_timestam
 
 class Pipeline(Thread):
     experiment: Experiment = Experiment(*([None] * 11))
-    experiment_file_path = None
+    experiment_file_path = "None"
 
     def __init__(self, config: Configuartion ) -> None:
         try:
@@ -199,7 +199,7 @@ class Pipeline(Thread):
             raise InsuranceException(e, sys) from e
 
     @classmethod
-    def get_experiments_status(cls, limit: int = 5) -> pd.DataFrame:
+    def get_experiments_status(scls, limit: int = 5) -> pd.DataFrame:
         try:
             if os.path.exists(Pipeline.experiment_file_path):
                 df = pd.read_csv(Pipeline.experiment_file_path)

@@ -6,7 +6,7 @@ columns:
   smoker: category
   region: category
   expenses: float
-
+  
 
 
 numerical_columns:
