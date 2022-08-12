@@ -28,8 +28,8 @@ class DataIngestion:
             # insurance_file_path = os.path.join(raw_data_dir, file_name)
 
 
-            logging.info(f"Reading csv file:")
-            insurance_data_frame = pd.read_csv("https://raw.githubusercontent.com/nikhilpatil44/insurance-premium-prediction/main/insurance.csv")
+            logging.info(f"Reading csv file from raw data url")
+            insurance_data_frame = pd.read_csv("https://raw.githubusercontent.com/pallabi-sahoo/insurance_premium_prediction/main/data/insurance.csv")
 
             insurance_data_frame["premium_cat"] = pd.cut(
                 insurance_data_frame["expenses"],
