@@ -24,11 +24,11 @@ To give people an estimate of how much they need based on their individual healt
 2. Performed Exploratory data analysis:
 - To get even more better insights visualized independent feature with the target feature
 - - the distribution of the target feature, expenses which was in Normal distribution with a very little right skewness.
-4. Data Transformation:
+3. Data Transformation:
 - To standardise numerical columns i use standard scaler technique and to create dummy variables for categorical columns used onehotencoding.
-3. Experimenting with various ML algorithms
+4. Experimenting with various ML algorithms
 - Like LinearRegression, DecissionTreeRegressor, GradienBoostingRegressor and RandomForestRegressor ,performed hyper parameter tuning using the GridSearchCV and found the best hyperparameters for each model. Then, picked the top most features as per the feature importance by an each model. Models, evaluated on both the training and testing data and recorded the performance metrics. Based on the performance metrics of both the linear and the tree based models, random forest regressor performed the best among all.
-4. Deployment: Deployed the Randomforest regressor model using Flask, which works in the backend part while for the frontend used HTML5.
+5. Deployment: Deployed the Randomforest regressor model using Flask, which works in the backend part while for the frontend used HTML5.
 
 ### Software and account Requirement.
 
