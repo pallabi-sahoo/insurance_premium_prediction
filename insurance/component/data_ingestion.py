@@ -21,15 +21,15 @@ class DataIngestion:
     
     def split_data_as_train_test(self) -> DataIngestionArtifact:
         try:
-            raw_data_dir = r"C:\Users\pallabi.sahoo\FSDS\projects\insurance_premium_prediction\data"
+            # raw_data_dir = r"C:\Users\pallabi.sahoo\FSDS\projects\insurance_premium_prediction\data"
 
-            file_name = os.listdir(raw_data_dir)[0]
+            file_name = "insurance.csv"
 
-            insurance_file_path = os.path.join(raw_data_dir,file_name)
+            # insurance_file_path = os.path.join(raw_data_dir, file_name)
 
 
-            logging.info(f"Reading csv file: [{insurance_file_path}]")
-            insurance_data_frame = pd.read_csv(insurance_file_path)
+            logging.info(f"Reading csv file:")
+            insurance_data_frame = pd.read_csv("https://raw.githubusercontent.com/nikhilpatil44/insurance-premium-prediction/main/insurance.csv")
 
             insurance_data_frame["premium_cat"] = pd.cut(
                 insurance_data_frame["expenses"],
